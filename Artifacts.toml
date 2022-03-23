@@ -1,0 +1,56 @@
+[[primecount]]
+arch = "aarch64"
+git-tree-sha1 = "4bdbd92bce9d33a024a61a50d51cd99b49d7284a"
+lazy = true
+march = "apple_m1"
+os = "macos"
+
+    [[primecount.download]]
+    sha256 = "9421ee8c0ce4623bda462942cc76458c7fa36dac0408c0a11c648a7c7a96bbd0"
+    url = "https://github.com/giordano/primecount_jll.jl/releases/download/primecount-v7.2.0+0/primecount.v7.2.0.aarch64-apple-darwin-march+apple_m1.tar.gz"
+[[primecount]]
+arch = "aarch64"
+git-tree-sha1 = "17a726597ee74f6f3341ce01960856013dfbf2e5"
+lazy = true
+march = "armv8_0"
+os = "macos"
+
+    [[primecount.download]]
+    sha256 = "619dda7479345744212951732252c340403bf21e8778be3e6736272b67e4edbf"
+    url = "https://github.com/giordano/primecount_jll.jl/releases/download/primecount-v7.2.0+0/primecount.v7.2.0.aarch64-apple-darwin-march+armv8_0.tar.gz"
+[[primecount]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "df25bd62a0afe97179b8dc3c8383e0df81085a79"
+lazy = true
+libc = "glibc"
+march = "avx"
+os = "linux"
+
+    [[primecount.download]]
+    sha256 = "b32866cadb076373edcbf97f756f5e77d959c908f3e3063269cb2d873b9f1478"
+    url = "https://github.com/giordano/primecount_jll.jl/releases/download/primecount-v7.2.0+0/primecount.v7.2.0.x86_64-linux-gnu-cxx11-march+avx.tar.gz"
+[[primecount]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c2c244d8a2dfdb9a0558d8dbab7578d42561f8c7"
+lazy = true
+libc = "glibc"
+march = "avx2"
+os = "linux"
+
+    [[primecount.download]]
+    sha256 = "73006b7d026f1ff5cac272c185f5d4beb22d408e13b50ad57ac0eb6cf0ee172f"
+    url = "https://github.com/giordano/primecount_jll.jl/releases/download/primecount-v7.2.0+0/primecount.v7.2.0.x86_64-linux-gnu-cxx11-march+avx2.tar.gz"
+[[primecount]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "60f5b475dabd536f4a7943ce37be1e62340fb960"
+lazy = true
+libc = "glibc"
+march = "x86_64"
+os = "linux"
+
+    [[primecount.download]]
+    sha256 = "d776969d0783eb63dbece02be21f63922e42c56f7d0fc2e8af7b54bfc1630d4e"
+    url = "https://github.com/giordano/primecount_jll.jl/releases/download/primecount-v7.2.0+0/primecount.v7.2.0.x86_64-linux-gnu-cxx11-march+x86_64.tar.gz"
